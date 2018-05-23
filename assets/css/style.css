@@ -14,6 +14,10 @@ header{
     margin-bottom: 30px;
 }
 
+header h1 {
+    margin-top: 25px;
+}
+
 .headname {
     color: #ffffff;
     background-color: #4aaaa5;
@@ -48,11 +52,13 @@ header{
     border: 2px solid #cccccc;
     margin: auto;
     margin-bottom: 50px;
+
 }
 
 .container-name {
     color: #4aaaa5;
     font-size: 24px;
+    font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 25px;
     border-bottom: 2px solid #cccccc;
@@ -64,6 +70,87 @@ header{
 }
 
 .container p {
+    float: right;
+}
+
+form {
+    margin-left: 25px;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-control {
+    margin: 5px 0px 5px 0px;
+    width: 900px;
+    padding: 5px;
+}
+
+.form-text {
+    margin-top: 5px;
+    width: 910px;
+    color: #777777;
+    border-color: #dddddd;
+}
+
+
+.form-submit {
+    margin-top: 5px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    height: 30px;
+    width: 75px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.form-submit:hover {
+    background-color: #FF0000;
+    cursor: pointer;
+}
+
+.portfolio-image {
+    height: 150px;
+    width: 150px;
+    background-image: url(../images/placeholder.png);
+    color: #ffffff;
+    text-align: center;
+    margin: 20px;
+}
+
+.text-box {
+    width: 150px;
+    height: 30px;
+    background-color: #4aaaa5;
+    position: relative;
+    top: 110px;
+}
+
+.portfolio-image h2 {
+    position: relative;
+    top: 7px;
+    
+}
+
+#port-two {
+    position: relative;
+    left: 200px;
+    bottom: 168px;
+}
+
+#port-three {
+    position: relative;
+    bottom: 168px;
+}
+
+#port-four {
+    position: relative;
+    left: 200px;
+    bottom: 337px;
+}
+
+#port-five {
+    position: relative;
+    bottom: 335px;
 }
 
 footer {
